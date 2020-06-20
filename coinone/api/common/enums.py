@@ -17,7 +17,7 @@ class Currency(str, enum.Enum):
     KRW = 'krw'
 
 
-class OrderType(int, enum.Enum):
+class OrderType(enum.IntEnum):
     Ask = 1
     Bid = 0
     Sell = 1
